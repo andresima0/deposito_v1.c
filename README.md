@@ -8,13 +8,15 @@ The program implements a stack data structure for each area of the warehouse, wh
 
 The program interface consists of the following options:
 
-* Push: Allows the user to push a new container into the warehouse. The user enters the container code and selects the area where they want to stack it.
+* `Push`: Allows the user to push a new container into the warehouse. The user enters the container code and selects the area where they want to stack it.
 
-* Pop: Allows the user to pop a container from a specific area. The user selects the area from which they want to unstack the container.
+* `Pop`: Allows the user to pop a container from a specific area. The user selects the area from which they want to unstack the container.
 
-* Print: Displays the current content of the warehouse, showing a table with the areas and their respective stacked containers. The table is displayed from bottom to top, as if it were a real stacking.
+* `Print`: Displays the current content of the warehouse, showing a table with the areas and their respective stacked containers. The table is displayed from bottom to top, as if it were a real stacking.
 
-* Exit: Terminates the program.
+* `Exit`: Terminates the program.
+
+
 
 When pushing a container, the program checks if the selected area has reached its maximum capacity. If the area is full, the program displays a message informing that it is not possible to stack more containers in that area.
 
@@ -33,13 +35,13 @@ O programa implementa uma estrutura de dados do tipo pilha para cada área do de
 
 A interface do programa é composta pelas seguintes opções:
 
-* Empilhar: Permite ao usuário empilhar um novo container no depósito. O usuário informa o código do container e seleciona a área em que deseja empilhá-lo;
+* `Empilhar`: Permite ao usuário empilhar um novo container no depósito. O usuário informa o código do container e seleciona a área em que deseja empilhá-lo;
 
-* Desempilhar: Permite ao usuário desempilhar um container de uma determinada área. O usuário seleciona a área em que deseja desempilhar o container;
+* `Desempilhar`: Permite ao usuário desempilhar um container de uma determinada área. O usuário seleciona a área em que deseja desempilhar o container;
 
-* Imprimir: Mostra o conteúdo atual do depósito, exibindo uma tabela com as áreas e seus respectivos containers empilhados. A tabela é exibida de baixo para cima, como se fosse um empilhamento real.
+* `Imprimir`: Mostra o conteúdo atual do depósito, exibindo uma tabela com as áreas e seus respectivos containers empilhados. A tabela é exibida de baixo para cima, como se fosse um empilhamento real.
 
-* Sair: Encerra o programa.
+* `Sair`: Encerra o programa.
 
 Ao empilhar um container, o programa verifica se a área selecionada já atingiu sua capacidade máxima. Caso a área esteja cheia, o programa exibe uma mensagem informando que não é possível empilhar mais containers naquela área.
 
