@@ -16,7 +16,9 @@ The program interface consists of the following options:
 
 * `Exit`: Terminates the program.
 
-
+<p align="center">
+  <img src= https://github.com/andresima0/deposito_v1.c/assets/111400782/0a9fda7f-a21f-4581-a006-8fbee0130842)" alt="Deposito interface")>
+</p>
 
 When pushing a container, the program checks if the selected area has reached its maximum capacity. If the area is full, the program displays a message informing that it is not possible to stack more containers in that area.
 
@@ -42,6 +44,10 @@ A interface do programa é composta pelas seguintes opções:
 * `Imprimir`: Mostra o conteúdo atual do depósito, exibindo uma tabela com as áreas e seus respectivos containers empilhados. A tabela é exibida de baixo para cima, como se fosse um empilhamento real.
 
 * `Sair`: Encerra o programa.
+
+<p align="center">
+  <img src= https://github.com/andresima0/deposito_v1.c/assets/111400782/0a9fda7f-a21f-4581-a006-8fbee0130842)" alt="Deposito interface")>
+</p>
 
 Ao empilhar um container, o programa verifica se a área selecionada já atingiu sua capacidade máxima. Caso a área esteja cheia, o programa exibe uma mensagem informando que não é possível empilhar mais containers naquela área.
 
