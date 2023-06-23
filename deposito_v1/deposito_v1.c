@@ -18,7 +18,7 @@ typedef struct {
     int cod;
 } Container;
 
-//Estrutura Nó
+//Estrutura NÃ³
 typedef struct no {
     Container p;
     struct no* proximo;
@@ -36,7 +36,7 @@ void criar_pilha(Pilha* p) {
     p->tam = 0;
 }
 
-//Função para verificar se a pilha está cheia
+//FunÃ§Ã£o para verificar se a pilha estÃ¡ cheia
 int pilha_cheia(Pilha* p) {
     return (p->tam >= MAX_CONTAINERS);
 }
@@ -60,7 +60,7 @@ void empilhar(Pilha* p, Container novoContainer) {
     }
 }
 
-//Função para verificar se a pilha está vazia
+//FunÃ§Ã£o para verificar se a pilha estÃ¡ vazia
 int pilha_vazia(Pilha* p) {
     return (p->topo == NULL);
 }
@@ -79,7 +79,7 @@ void desempilhar(Pilha* p) {
     printf(" Container desempilhado com sucesso.\n");
 }
 
-//Procedimento para imprimir o conteúdo do depósito
+//Procedimento para imprimir o conteÃºdo do depÃ³sito
 void imprimir_deposito(Pilha* pilhas) {
     printf("\n Conteudo do deposito:\n\n");
     printf("         |  Area 1  |  Area 2  |  Area 3  |\n");
@@ -167,7 +167,7 @@ int main() {
         }
     } while (opcao != 0);
 
-    //Desaloca a memória das pilhas
+    //Desaloca a memÃ³ria das pilhas
     for (int i = 0; i < MAX_AREAS; i++) {
         No* atual = pilhas[i].topo;
         while (atual) {
